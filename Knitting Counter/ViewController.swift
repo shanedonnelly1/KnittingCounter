@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         do {
-            let count = try KnittingCount(fileName: "data")
+            let count = try KnittingCount()
             rowCount.text = "\(count.rowCount)"
             patternCount.text = "\(count.patternCount)"
         } catch KnittingCount.DecodingError.missingFile {
