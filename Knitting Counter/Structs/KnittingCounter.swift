@@ -9,27 +9,46 @@
 import Foundation
 
 struct KnittingCount: Codable, Equatable {
-    let rowCount: Int
-    let patternCount: Int
+    var rowCount: Int
+    var patternCount: Int
     
     enum DecodingError: Error {
         case missingFile
     }
     
-    func save() {
-        
+    enum EncodingError: Error {
+        case saving
+    }
+    
+    static func getFileURL() -> URL {
+        let documentDirectoryURL = FileManager.documentDirectoryURL
+        let fileURL = documentDirectoryURL.appendingPathComponent("data").appendingPathExtension("json")
+        return fileURL
+    }
+    
+    func save() throws {
+        let jsonEncoder = JSONEncoder()
+        do {
+            let jsonData = try jsonEncoder.encode(self)
+            try jsonData.write(to: KnittingCount.getFileURL())
+        } catch {
+            
+        }
     }
     
     init() throws {
-        let documentDirectoryURL = FileManager.documentDirectoryURL
-        let documentURL = documentDirectoryURL.appendingPathComponent("data").appendingPathExtension("json")
-        
+        let fileURL = KnittingCount.getFileURL()
         let decoder = JSONDecoder()
         do {
-            let data = try Data(contentsOf: documentURL)
+            let data = try Data(contentsOf: fileURL)
             self = try decoder.decode(KnittingCount.self, from: data)
         } catch {
             throw DecodingError.missingFile
         }
+    }
+    
+    init(rowCount: Int, patternCount: Int) {
+        self.rowCount = rowCount
+        self.patternCount = patternCount
     }
 }

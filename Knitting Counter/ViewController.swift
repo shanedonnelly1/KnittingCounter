@@ -28,12 +28,28 @@ class ViewController: UIViewController {
             print("Unexpected error: \(error).")
         }
     }
+    
+    func save() {
+        let rowCountString = rowCount.text ?? "0"
+        let patternCountString = patternCount.text ?? "0"
+        if let rowCount = Int(rowCountString), let patternCount = Int(patternCountString) {
+            let count = KnittingCount(rowCount: rowCount, patternCount: patternCount)
+            do {
+                try count.save()
+            } catch KnittingCount.EncodingError.saving {
+                print("Saving error.")
+            } catch {
+                print("Unexpected error: \(error).")
+            }
+        }
+    }
 
     @IBAction func rowIncrementTouched(_ sender: Any) {
         let rowCountString = rowCount.text ?? "0"
         if let rowCountInt = Int(rowCountString) {
             rowCount.text = "\(rowCountInt + 1)"
         }
+        save()
     }
     
     @IBAction func rowDecrementTouched(_ sender: Any) {
@@ -43,10 +59,12 @@ class ViewController: UIViewController {
                 rowCount.text = "\(rowCountInt - 1)"
             }
         }
+        save()
     }
     
     @IBAction func rowResetTouched(_ sender: Any) {
         rowCount.text = "0"
+        save()
     }
     
     @IBAction func patternIncrementTouched(_ sender: Any) {
@@ -54,6 +72,7 @@ class ViewController: UIViewController {
         if let patternCountInt = Int(patternCountString) {
             patternCount.text = "\(patternCountInt + 1)"
         }
+        save()
     }
     
     @IBAction func patternDecrementTouched(_ sender: Any) {
@@ -63,10 +82,12 @@ class ViewController: UIViewController {
                 patternCount.text = "\(patternCountInt - 1)"
             }
         }
+        save()
     }
     
     @IBAction func patternResetTouched(_ sender: Any) {
         patternCount.text = "0"
+        save()
     }
     
     
