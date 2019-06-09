@@ -16,8 +16,17 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        rowCount.text = "0"
-        patternCount.text = "0"
+        
+        do {
+            let count = try KnittingCount(fileName: "data")
+            rowCount.text = "\(count.rowCount)"
+            patternCount.text = "\(count.patternCount)"
+        } catch KnittingCount.DecodingError.missingFile {
+            rowCount.text = "0"
+            patternCount.text = "0"
+        } catch {
+            print("Unexpected error: \(error).")
+        }
     }
 
     @IBAction func rowIncrementTouched(_ sender: Any) {
