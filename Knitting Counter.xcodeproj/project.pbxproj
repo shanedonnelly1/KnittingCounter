@@ -7,31 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0380299B22AD5AA4002D9654 /* KnittingCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0380299A22AD5AA4002D9654 /* KnittingCounter.swift */; };
-		0380299D22AD6E82002D9654 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 0380299C22AD6E82002D9654 /* data.json */; };
-		0380299F22AD7531002D9654 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0380299E22AD7531002D9654 /* FileManager.swift */; };
-		7C1869D722AD4AF50016B7A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C1869D622AD4AF50016B7A9 /* Assets.xcassets */; };
-		7C82640522AD2D3900BA094C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C82640422AD2D3900BA094C /* AppDelegate.swift */; };
-		7C82640722AD2D3900BA094C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C82640622AD2D3900BA094C /* ViewController.swift */; };
-		7C82640A22AD2D3900BA094C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C82640822AD2D3900BA094C /* Main.storyboard */; };
-		7C82640F22AD2D3B00BA094C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C82640D22AD2D3B00BA094C /* LaunchScreen.storyboard */; };
+		7C0619F0259B955900DF8BD6 /* Knitting_CounterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0619DE259B955800DF8BD6 /* Knitting_CounterApp.swift */; };
+		7C0619F1259B955900DF8BD6 /* Knitting_CounterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0619DE259B955800DF8BD6 /* Knitting_CounterApp.swift */; };
+		7C0619F2259B955900DF8BD6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0619DF259B955800DF8BD6 /* ContentView.swift */; };
+		7C0619F3259B955900DF8BD6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0619DF259B955800DF8BD6 /* ContentView.swift */; };
+		7C0619F4259B955900DF8BD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C0619E0259B955900DF8BD6 /* Assets.xcassets */; };
+		7C0619F5259B955900DF8BD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C0619E0259B955900DF8BD6 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0380299A22AD5AA4002D9654 /* KnittingCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnittingCounter.swift; sourceTree = "<group>"; };
 		0380299C22AD6E82002D9654 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		0380299E22AD7531002D9654 /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		7C0619DE259B955800DF8BD6 /* Knitting_CounterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knitting_CounterApp.swift; sourceTree = "<group>"; };
+		7C0619DF259B955800DF8BD6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7C0619E0259B955900DF8BD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C0619E5259B955900DF8BD6 /* Knitting Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Knitting Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C0619E7259B955900DF8BD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C0619EC259B955900DF8BD6 /* Knitting Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Knitting Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C0619EE259B955900DF8BD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C0619EF259B955900DF8BD6 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		7C1869D622AD4AF50016B7A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7C82640122AD2D3900BA094C /* Knitting Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Knitting Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C82640422AD2D3900BA094C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C82640622AD2D3900BA094C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7C82640922AD2D3900BA094C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7C82640E22AD2D3B00BA094C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C82641022AD2D3B00BA094C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7C8263FE22AD2D3900BA094C /* Frameworks */ = {
+		7C0619E2259B955900DF8BD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C0619E9259B955900DF8BD6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -57,10 +67,43 @@
 			path = Structs;
 			sourceTree = "<group>";
 		};
+		7C0619DD259B955800DF8BD6 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				0380299C22AD6E82002D9654 /* data.json */,
+				038029A022AD7651002D9654 /* Extensions */,
+				038029A122AD7660002D9654 /* Structs */,
+				7C0619DE259B955800DF8BD6 /* Knitting_CounterApp.swift */,
+				7C0619DF259B955800DF8BD6 /* ContentView.swift */,
+				7C0619E0259B955900DF8BD6 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		7C0619E6259B955900DF8BD6 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7C0619E7259B955900DF8BD6 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		7C0619ED259B955900DF8BD6 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				7C0619EE259B955900DF8BD6 /* Info.plist */,
+				7C0619EF259B955900DF8BD6 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
 		7C8263F822AD2D3900BA094C = {
 			isa = PBXGroup;
 			children = (
 				7C82640322AD2D3900BA094C /* Knitting Counter */,
+				7C0619DD259B955800DF8BD6 /* Shared */,
+				7C0619E6259B955900DF8BD6 /* iOS */,
+				7C0619ED259B955900DF8BD6 /* macOS */,
 				7C82640222AD2D3900BA094C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,7 +111,8 @@
 		7C82640222AD2D3900BA094C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7C82640122AD2D3900BA094C /* Knitting Counter.app */,
+				7C0619E5259B955900DF8BD6 /* Knitting Counter.app */,
+				7C0619EC259B955900DF8BD6 /* Knitting Counter.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,14 +120,9 @@
 		7C82640322AD2D3900BA094C /* Knitting Counter */ = {
 			isa = PBXGroup;
 			children = (
-				038029A122AD7660002D9654 /* Structs */,
-				038029A022AD7651002D9654 /* Extensions */,
-				0380299C22AD6E82002D9654 /* data.json */,
-				7C82640422AD2D3900BA094C /* AppDelegate.swift */,
 				7C1869D622AD4AF50016B7A9 /* Assets.xcassets */,
 				7C82640622AD2D3900BA094C /* ViewController.swift */,
 				7C82640822AD2D3900BA094C /* Main.storyboard */,
-				7C82640D22AD2D3B00BA094C /* LaunchScreen.storyboard */,
 				7C82641022AD2D3B00BA094C /* Info.plist */,
 			);
 			path = "Knitting Counter";
@@ -92,21 +131,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7C82640022AD2D3900BA094C /* Knitting Counter */ = {
+		7C0619E4259B955900DF8BD6 /* Knitting Counter (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C82641322AD2D3B00BA094C /* Build configuration list for PBXNativeTarget "Knitting Counter" */;
+			buildConfigurationList = 7C0619F6259B955900DF8BD6 /* Build configuration list for PBXNativeTarget "Knitting Counter (iOS)" */;
 			buildPhases = (
-				7C8263FD22AD2D3900BA094C /* Sources */,
-				7C8263FE22AD2D3900BA094C /* Frameworks */,
-				7C8263FF22AD2D3900BA094C /* Resources */,
+				7C0619E1259B955900DF8BD6 /* Sources */,
+				7C0619E2259B955900DF8BD6 /* Frameworks */,
+				7C0619E3259B955900DF8BD6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Knitting Counter";
-			productName = "Knitting Counter";
-			productReference = 7C82640122AD2D3900BA094C /* Knitting Counter.app */;
+			name = "Knitting Counter (iOS)";
+			productName = "Knitting Counter (iOS)";
+			productReference = 7C0619E5259B955900DF8BD6 /* Knitting Counter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7C0619EB259B955900DF8BD6 /* Knitting Counter (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C0619F9259B955900DF8BD6 /* Build configuration list for PBXNativeTarget "Knitting Counter (macOS)" */;
+			buildPhases = (
+				7C0619E8259B955900DF8BD6 /* Sources */,
+				7C0619E9259B955900DF8BD6 /* Frameworks */,
+				7C0619EA259B955900DF8BD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Knitting Counter (macOS)";
+			productName = "Knitting Counter (macOS)";
+			productReference = 7C0619EC259B955900DF8BD6 /* Knitting Counter.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -115,12 +171,15 @@
 		7C8263F922AD2D3900BA094C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1010;
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
 				ORGANIZATIONNAME = "Shane Donnelly";
 				TargetAttributes = {
-					7C82640022AD2D3900BA094C = {
-						CreatedOnToolsVersion = 10.1;
+					7C0619E4259B955900DF8BD6 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					7C0619EB259B955900DF8BD6 = {
+						CreatedOnToolsVersion = 12.3;
 					};
 				};
 			};
@@ -137,34 +196,47 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7C82640022AD2D3900BA094C /* Knitting Counter */,
+				7C0619E4259B955900DF8BD6 /* Knitting Counter (iOS) */,
+				7C0619EB259B955900DF8BD6 /* Knitting Counter (macOS) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7C8263FF22AD2D3900BA094C /* Resources */ = {
+		7C0619E3259B955900DF8BD6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C82640F22AD2D3B00BA094C /* LaunchScreen.storyboard in Resources */,
-				7C1869D722AD4AF50016B7A9 /* Assets.xcassets in Resources */,
-				7C82640A22AD2D3900BA094C /* Main.storyboard in Resources */,
-				0380299D22AD6E82002D9654 /* data.json in Resources */,
+				7C0619F4259B955900DF8BD6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C0619EA259B955900DF8BD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C0619F5259B955900DF8BD6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7C8263FD22AD2D3900BA094C /* Sources */ = {
+		7C0619E1259B955900DF8BD6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C82640722AD2D3900BA094C /* ViewController.swift in Sources */,
-				0380299B22AD5AA4002D9654 /* KnittingCounter.swift in Sources */,
-				7C82640522AD2D3900BA094C /* AppDelegate.swift in Sources */,
-				0380299F22AD7531002D9654 /* FileManager.swift in Sources */,
+				7C0619F2259B955900DF8BD6 /* ContentView.swift in Sources */,
+				7C0619F0259B955900DF8BD6 /* Knitting_CounterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C0619E8259B955900DF8BD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C0619F3259B955900DF8BD6 /* ContentView.swift in Sources */,
+				7C0619F1259B955900DF8BD6 /* Knitting_CounterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,17 +251,102 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		7C82640D22AD2D3B00BA094C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7C82640E22AD2D3B00BA094C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		7C0619F7259B955900DF8BD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MYW9FQS392;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shanedonnelly.Knitting-Counter";
+				PRODUCT_NAME = "Knitting Counter";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7C0619F8259B955900DF8BD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MYW9FQS392;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shanedonnelly.Knitting-Counter";
+				PRODUCT_NAME = "Knitting Counter";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C0619FA259B955900DF8BD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MYW9FQS392;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shanedonnelly.Knitting-Counter";
+				PRODUCT_NAME = "Knitting Counter";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7C0619FB259B955900DF8BD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MYW9FQS392;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shanedonnelly.Knitting-Counter";
+				PRODUCT_NAME = "Knitting Counter";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		7C82641122AD2D3B00BA094C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -216,6 +373,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -241,7 +399,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -277,6 +435,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -296,7 +455,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -306,59 +465,32 @@
 			};
 			name = Release;
 		};
-		7C82641422AD2D3B00BA094C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MYW9FQS392;
-				INFOPLIST_FILE = "Knitting Counter/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.shanedonnelly.Knitting-Counter";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Debug;
-		};
-		7C82641522AD2D3B00BA094C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MYW9FQS392;
-				INFOPLIST_FILE = "Knitting Counter/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.shanedonnelly.Knitting-Counter";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7C0619F6259B955900DF8BD6 /* Build configuration list for PBXNativeTarget "Knitting Counter (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C0619F7259B955900DF8BD6 /* Debug */,
+				7C0619F8259B955900DF8BD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C0619F9259B955900DF8BD6 /* Build configuration list for PBXNativeTarget "Knitting Counter (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C0619FA259B955900DF8BD6 /* Debug */,
+				7C0619FB259B955900DF8BD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7C8263FC22AD2D3900BA094C /* Build configuration list for PBXProject "Knitting Counter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7C82641122AD2D3B00BA094C /* Debug */,
 				7C82641222AD2D3B00BA094C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7C82641322AD2D3B00BA094C /* Build configuration list for PBXNativeTarget "Knitting Counter" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7C82641422AD2D3B00BA094C /* Debug */,
-				7C82641522AD2D3B00BA094C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
